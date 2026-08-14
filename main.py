@@ -3,7 +3,7 @@ from fetcher import fetch_html
 from parser import parsing_html
 
 URL = "https://techcrunch.com/category/artificial-intelligence/"
-OUTPUT = "noticias_csv"
+OUTPUT = "noticias.csv"
 
 def run():
     html = fetch_html(URL)
